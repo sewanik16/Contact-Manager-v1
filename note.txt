@@ -1,0 +1,31 @@
+
+setup:
+npx create-react-app
+
+install bootstrap 5.2.0 - npm i bootstrap 
+
+install fontawesom 6.1.2- npm i @fortawesome/fontawesome
+
+
+connect awesome font icons to index.html file :   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+connect fontawesome to index.js : import "../node_modules/@fortawesome/fontawesome-free/css/all.css"
+
+connect bootstrap css and js to index.js : 
+import "../node_modules/bootstrap/dist/css/bootstrap.css"
+import "../node_modules/bootstrap/dist/js/bootstrap.bundle"
+
+-----------------------------------------------------------------
+install:            npm i axios react-router-dom
+axios               : for fetching data from server(for connection between front & back)
+react-router-dom    : for navigating from one to another page
+
+.................................................................
+
+Components : navbar
+             contact-list
+             view-contact
+             edit-contact
+             add-contact
+
+Services : 
