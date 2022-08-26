@@ -29,3 +29,9 @@ Components : navbar
              add-contact
 
 Services : 
+
+
+....................................................................
+
+setup all routing in app.js 
+now, start to design components one by one : start with navbar

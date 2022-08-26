@@ -1,0 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Gochi+Hand&family=Itim&family=Mali:ital,wght@1,300&display=swap');
+
+
+body{
+    /* font-family: 'Gochi Hand', cursive !important; */
+    font-family: 'Itim', cursive !important; 
+    /* font-family: 'Mali', cursive !important; */
+
+    background-color: rgb(186, 197, 215) !important;
+}
