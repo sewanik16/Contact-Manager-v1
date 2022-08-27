@@ -35,3 +35,30 @@ Services :
 
 setup all routing in app.js 
 now, start to design components one by one : start with navbar
+
+............................
+
+Back-End Setup::::::::::::::::::
+
+    json file -> db.json (add data in form of json)
+
+    Json Server setup  >> create Server folder inside react app folder
+                       >> create package.json
+
+    add "start":"jason-server --watch db.json -p 9000" -----inside package.json file of server
+
+
+API ::::::::::::::::::::(api test with insomnia)  just like postman
+
+Get all contacts :       GET >> http://localhost:8000/contacts
+
+
+Get a single contact :   GET >> http://localhost:8000/contacts/id
+
+Create a Contact :       POST >> http://localhost:8000/contacts/id
+
+Update a Contact :       PUT >> http://localhost:8000/contacts/id
+
+Delete a Contact :       DELETE >> http://localhost:8000/contacts/id
+
+

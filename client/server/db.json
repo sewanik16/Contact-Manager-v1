@@ -1,0 +1,32 @@
+{
+  "contacts": [
+    {
+      "id": "nik001",
+      "name": "Amir Khan",
+      "mobile": "988741038",
+      "email": "amir@gmail.com",
+      "company": "Devsot Foundation",
+      "profession": "Manager",
+      "groupid": "1"
+    },
+    {
+      "id": "nik002",
+      "name": "Rohit Sharma",
+      "mobile": "8888741022",
+      "email": "rohit@gmail.com",
+      "company": "Sewanik Sports Club",
+      "profession": "Coach",
+      "groupid": "2"
+    }
+  ],
+  "groups": [
+    {
+      "id": "1",
+      "groupname": "family"
+    },
+    {
+      "id": "2",
+      "groupname": "Friend"
+    }
+  ]
+}

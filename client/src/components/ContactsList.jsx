@@ -11,7 +11,7 @@ function ContactList() {
                 <p className="h3">
                   {" "}
                   Phone Directory
-                  <Link to="/contact/add" className="btn btn-primary ms-2">
+                  <Link to="/contact/add" className="btn btn-success ms-2">
                     <i className="fa fa-plus-circle me-2" />
                     New
                   </Link>
@@ -51,18 +51,35 @@ function ContactList() {
             <div className="col-md-6">
               <div className="card">
                 <div className="card-body">
-                  <div className="row">
-                    <div className="col-md-4">
-                      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQKpSNyhAnMOKvwCEKlcAHvGtlY66rTVSPjZQ&usqp=CAU" alt="" className="img-fluid" />
+                  <div className="row align-items-center justify-content-center">
+                    <div className="col-md-3">
+                      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQKpSNyhAnMOKvwCEKlcAHvGtlY66rTVSPjZQ&usqp=CAU" 
+                      alt="" className="img-fluid" />
                     </div>
                     <div className="col-md-7">
                         <ul className="list-group">
                             <li className="list-group-item list-group-item-action">
                             Name : <span className="fw-bold">Nikhil Rathod</span>
                             </li>
+                            <li className="list-group-item list-group-item-action">
+                            Mobile : <span className="fw-bold">+91 8308741038</span>
+                            </li>
+                            <li className="list-group-item list-group-item-action">
+                            Email : <span className="fw-bold">nikhilvrathod09@gmail.com</span>
+                            </li>
                         </ul>
                     </div>
-                    <div className="col-md-1"></div>
+                    <div className="col-md-1">
+                        <Link to="/contact/view/1" className="btn btn-warning my-1">
+                            <i className="fa fa-eye"/>
+                        </Link>
+                        <Link to="/contact/edit/1" className="btn btn-primary my-1">
+                            <i className="fa fa-pen"/>
+                        </Link>
+                        <button className="btn btn-danger my-1">
+                            <i className="fa fa-trash"/>
+                        </button>
+                    </div>
                   </div>
                 </div>
               </div>
