@@ -1,22 +1,40 @@
 {
   "contacts": [
     {
-      "id": "nik001",
-      "name": "Amir Khan",
-      "mobile": "988741038",
-      "email": "amir@gmail.com",
-      "company": "Devsot Foundation",
-      "profession": "Manager",
-      "groupid": "1"
+      "name": "Nikhil Rathod",
+      "email": "devsotnik@gmail.com",
+      "mobile": "8308741038",
+      "company": "Tesla and Devsot",
+      "profession": "Scientist",
+      "groupid": "1",
+      "id": 1
     },
     {
-      "id": "nik002",
-      "name": "Rohit Sharma",
-      "mobile": "8888741022",
-      "email": "rohit@gmail.com",
-      "company": "Sewanik Sports Club",
-      "profession": "Coach",
-      "groupid": "2"
+      "name": "Elon Musk",
+      "email": "elon.musk@gmail.com",
+      "mobile": "65656665665",
+      "company": "Paypal",
+      "profession": "Engineer",
+      "groupid": "3",
+      "id": 2
+    },
+    {
+      "name": "Bill Gate",
+      "email": "bill@gate.com",
+      "mobile": "898898898",
+      "company": "Microsoft",
+      "profession": "Director",
+      "groupid": "3",
+      "id": 3
+    },
+    {
+      "name": "Mark",
+      "email": "mark@gmail.com",
+      "mobile": "566555556",
+      "company": "SpaceX",
+      "profession": "Scientist",
+      "groupid": "4",
+      "id": 4
     }
   ],
   "groups": [
@@ -27,6 +45,14 @@
     {
       "id": "2",
       "groupname": "Friend"
+    },
+    {
+      "id": "3",
+      "groupname": "Social"
+    },
+    {
+      "id": "4",
+      "groupname": "Service"
     }
   ]
 }

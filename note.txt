@@ -61,4 +61,8 @@ Update a Contact :       PUT >> http://localhost:8000/contacts/id
 
 Delete a Contact :       DELETE >> http://localhost:8000/contacts/id
 
+----------------------------------------------------------------------------
 
+install axios 
+
+To start server Code : open terminal in server : npm start
