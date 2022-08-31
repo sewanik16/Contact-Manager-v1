@@ -10,15 +10,6 @@
       "id": 1
     },
     {
-      "name": "Elon Musk",
-      "email": "elon.musk@gmail.com",
-      "mobile": "65656665665",
-      "company": "Paypal",
-      "profession": "Engineer",
-      "groupid": "3",
-      "id": 2
-    },
-    {
       "name": "Bill Gate",
       "email": "bill@gate.com",
       "mobile": "898898898",
@@ -28,13 +19,22 @@
       "id": 3
     },
     {
-      "name": "Mark",
-      "email": "mark@gmail.com",
-      "mobile": "566555556",
+      "name": "Akash rathod",
+      "email": "akashvrathod09@gmail.com",
+      "mobile": "646",
+      "company": "ww",
+      "profession": "ww",
+      "groupid": "2",
+      "id": 5
+    },
+    {
+      "name": "Elon Musk",
+      "email": "elon.musk@gmail.com",
+      "mobile": "56665655",
       "company": "SpaceX",
       "profession": "Scientist",
       "groupid": "4",
-      "id": 4
+      "id": 6
     }
   ],
   "groups": [
